@@ -1,0 +1,79 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+   
+}
+
+header {
+    overflow: hidden;
+    padding: 10px 10px;
+    background-color: royalblue;
+}
+
+header a{
+    float: left;
+    color: white;
+    text-shadow: black 2px 2px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 25px;
+    border-radius: 5%;
+}
+
+
+a .denis {
+    font-size: 2rem;
+}
+
+.header a .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.header a:hover {
+    background-color:darkblue;
+    color:goldenrod;
+}
+
+.header a.links {
+    background-color: rgb(125, 154, 192);
+}
+
+.header-r {
+    float: right;
+}
+
+.portrait {
+    border: 10px solid white;
+    border-radius: 45%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 200px;
+   
+}
+
+@media screen and (max-width: 600px) {
+    header a{
+        float: none;
+        display: block;
+        text-align: left;
+        
+    }
+}
+    .header-right {
+        float: none;
+        
+    }
+
+
+    .denis {
+        font-size: 2rem;
+
+    }
