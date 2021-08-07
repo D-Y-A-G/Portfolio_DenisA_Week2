@@ -176,6 +176,7 @@ footer a {
     }
 
     .portrait {
+        display: flex;
         top: 90px;
         width: 50%;
         
