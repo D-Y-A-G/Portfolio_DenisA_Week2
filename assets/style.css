@@ -30,7 +30,7 @@ header a{
     border-radius: 5%;
 }
 
-header a .denis {
+.denis {
     font-size: 2rem;
 }
 
@@ -52,7 +52,7 @@ header a .denis {
     border: 15px solid white;
     border-radius: 45%;
     position: absolute;
-    left: 50px;
+    left: 10px;
     top: 55px;
     width: 310px;
     z-index: 2;
@@ -64,7 +64,7 @@ header a .denis {
     width: 100%;
     padding: 20px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid gray;
   }
 
 .aboutme {
@@ -76,6 +76,13 @@ header a .denis {
     width: 20%;
     height: 300px;
 }
+
+.aboutme h2 {
+    color: blanchedalmond;
+    text-shadow: 2px 2px black;
+    font-size: 2rem;
+}
+
 section {
 
     background-color: gray;
@@ -91,7 +98,23 @@ section {
     
 
 }
+ 
+.contact {
+    background-color: cadetblue;
+    width: 20%;
+    top: -240px;
+    height: 250px;
+    padding: 30px 10px;
+}
 
+.contact h2 {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.return {
+    text-align: center;
+    font-size: 2rem;
+}
 
 @media screen and (max-width: 600px) {
     header a{
@@ -100,4 +123,13 @@ section {
         text-align: left;
     }
 
+    .portrait {
+        top: 80px;
+    }
+
+    .aboutme {
+
+        display: inline-block;
+        
+    }
 }
