@@ -69,7 +69,8 @@ header a{
 
 
 .aboutme {
-    color: darkblue;
+    color: rgb(30, 70, 189);
+    text-shadow: 1px 1px black;
     font-weight: bold;
     background-color: cornflowerblue;
     position: relative;
@@ -80,6 +81,7 @@ header a{
 }
 
 .aboutme h2 {
+    display: flex;
     color: white;
     text-shadow: 2px 2px black;
     font-size: 2rem;
@@ -113,6 +115,8 @@ section {
     color: white;
     text-shadow: 2px 2px black;
 }
+
+
 .return {
     padding: 5px 5px;
     text-align: center;
@@ -129,6 +133,7 @@ section {
 footer a {
     color: white;
     text-shadow: 1px 1px black;
+    text-decoration: none;
 }
 /*desktop*/
 @media screen and (max-width: 1080px) {
@@ -143,11 +148,22 @@ footer a {
         width: 50%;
         
     }
-   
+    .aboutme {
+        display: inline;
+        height:400px;
+        width: 40%;
+    }
+   .contact {
+       font-size: 10px;
+       position: relative;
+       top: -135px;    
+       display: inline-block;
+       height: 200px;
+       width: 34%;
+   }
+
 }
 /*mobile*/
 @media screen and (max-width: 480px) {
-    .portrait {
-        width: 50%;
-    }
+ 
 }
